@@ -44,13 +44,13 @@
               {% endfor %}
 
               <!-- About -->
-              <!-- <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
                   {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li> -->
+              </li>
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -59,11 +59,11 @@
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li> -->
+              </li>-->
               {%- endif %}
 
               <!-- Other pages -->
-              <!-- {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
+              {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
@@ -93,7 +93,7 @@
               </li>
               {%- endif -%}
               {%- endif -%}
-              {% endfor -%} -->
+              {% endfor -%}
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

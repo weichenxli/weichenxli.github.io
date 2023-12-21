@@ -2,96 +2,114 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Weichen Li
+    - name: Research Interests
+      value: programming languages, security, software engineering, machine learning
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Science (Thesis Track)
+      institution: Columbia University
+      year: 2022.9 - 2024.5
+    - title: Bachelor of Science (Honor Class)
+      institution: Fudan University
+      year: 2018.9 - 2022.6
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
-- title: Experience
+- title: Research
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Trustworthy AI Code Generation (In Progress)
+      institution: Software Systems Lab, Columbia University
+      year: 2022.9 - Present
+      advisor: 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Proposed a Tree of Thought-based framework using Large Language Model (LLM) APIs, designed to enhance code generation quality through the preservation of both semantic consistency and diverse expression.
+        - Demonstrated the stubbornness of current code-LLMs through an extensive research investigation on model architectures, finetuning strategies and prompting strategies.
+        - Collaborated with Prof. Junfeng Yang, Baishakhi Ray, Zhou Yu, Kexin Pei, and Chengzhi Mao.
+    - title: Symmetry-Presering Program Representation for Learning Code Semantics
+      institution: Software Systems Lab, Columbia University
+      year: 2022.9 - Present
+      advisor: 
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Proposed a foundational framework using semantics-preserving code symmetries, ensuring provable generalization to new samples resulting from their compositions.
+        - Presented a novel mechanism within LLMs architecture, featuring a unique variant of self-attention that is equivariant to program symmetries, identified through graph automorphism.
+        - Conducted practical experiments with multiple implementation variants to translate theoretical concepts into applicable solutions.
+        - Demonstrated effectiveness in generalizing invariance to various semantics-preserving transformations, surpassing state-of-the-art code LLMs in various program analysis tasks.
+        - Collaborated with Prof. Junfeng Yang and Kexin Pei.
+    - title: Learning-based Automated Test Generation
+      institution: University of Illinois at Urbana-Champaign
+      year: 2022.7 - 2023.3
       description:
+        - Proposed a new dimension that leverages LLMs to generate assertions for incomplete test methods in an infilling style. Enhanced alignment with LLMs' pre-training objectives and utilized bidirectional context for smoother integration.
+        - Fine-tuned LLMs using various masking strategies at different granularities to ensure precise hidden tokens reconstruction.
+        - Conducted extensive evaluations to estimate the differential impact of various masking strategies, and the performance across distinct LLMs, alongside an analysis of operational costs.
+        - Collaborated with Prof. Lingming Zhang.
+    - title: "Beyond Entities: A Large-Scale Multi-Modal Knowledge Graph with Triplet Fact Grounding"
+      institution: Fudan University
+      year: 2021.3 - 2022.6
+      description:
+        - Proposed the first-ever framework for grounding triplet facts in images,  introducing a new dimension of visual semantics of relations to multimodal knowledge graphs (MMKGs).
+        - Constructed <i>ImgFact</i>, a groundbreaking large-scale MMKG, employing a retrieval-based approach to assemble an extensive dataset comprising 247K triplets and 3M images.
+        - A series of meticulous manual and automated evaluation processes has been conducted, demonstrating the dataset's exceptional quality and reliability.
+        - Leveraged the <i>ImgFact</i> dataset to significantly enhance model performance across various real-world applications. The model optimized by <i>ImgFact</i> achieves an impressive 8.38% and 9.87% improvement in F1 score over the solutions enhanced by an existing MMKG and VisualChatGPT, respectively, on relation classification.
+    - title: Vanilla CPU @ 4th National CPU Design Contest
+      institution: Fudan University
+      year: 2020.6 - 2020.8
+      description:
+      - Designed and implemented an experimental dual-issued MIPS CPU that supports around 80 MIPS instructions and all required CP0 registers in MIPSr1, as well as various exception handling mechanisms.
+      - Achieved over 30% speedup by implementing Harvard architecture memory hierarchy and refactoring the official AXI bridge to support and optimize burst transfers.
+      - Implemented TLB memory management and capable of running whole PMON system and uCore debug mode.
+      - Ranked 6th and Second Prize Awardee, collaborated with Prof. Liang Zhang and Chen chen.
+    - title: Deep SEM
+      year: 2020.7 - 2020.9
+      instituion: Google Software Product Sprint Program
+      description:
+      - Researched and studied the Neural Architecture Search (NAS) and a social science research approach named Structure Equation Model (SEM).
+      - Designed and implemented an experimental framework to apply NAS and reinforcement learning to speed up the traditional SEM process from days to hours. 
+      - Used PyQt5 to build a frontend that enabled users to import questionnaire data and construct initial relationship.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
-  contents:
-    - year: 1921
+  contents: 
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Silver Medal @ International Collegiate Programming Contest East Continent Final 
+    - year: 2020
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
+        - Gold Medal @ China Collegiate Programming Contest Changchun Site
+        - Gold Medal @ China Collegiate Programming Contest WFinal
+        - Rank 6th @ 4th National Student Computer System Capability Challenge
+        - Google APAC Women Techmakers Scholarship 2020
+    - year: 2017
+      items: 
+        - Third Prize @ 35th National Olympiad in Informatics, China
+  
+- title: Industry Experience
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2021.6 - 2021.10
+      institution: Software Engineer Intern @ Google
+      items:
+      - Analyzed user behaviors of the GPay payment transaction, proposed and implemented a new QR code profile widget, and improved the payment transaction by at least 10% in the production environment.
+      - Refactored the existing EMV QR code parser pipeline to ease the logic of integrating a new EMV QR. Implemented the QR code parsing pipeline that launched in Brazil.
+      - Constructed a new object detection dataset for QR code and spot code and applied the resampling mechanism to improve the code detection neural network model by 5% on accuracy.
+    - year: 2020.9 - 2021.3
+      institution: Software Engineer Intern @ Morgan Stanley
+      items:
+      - Analyzed the time consumption of each part of the derivatives statement generating system and implemented a scheduler to eliminate the bottleneck and improve the efficiency of the derivatives statement generating system by nearly 37%.
+      - Researched the basic principles of transaction management in SpringBoot, gave a small lecture to the group, and applied it to the derivatives statement management system.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
