@@ -56,6 +56,7 @@
         - Constructed <i>ImgFact</i>, a groundbreaking large-scale MMKG, employing a retrieval-based approach to assemble an extensive dataset comprising 247K triplets and 3M images.
         - A series of meticulous manual and automated evaluation processes has been conducted, demonstrating the dataset's exceptional quality and reliability.
         - Leveraged the <i>ImgFact</i> dataset to significantly enhance model performance across various real-world applications. The model optimized by <i>ImgFact</i> achieves an impressive 8.38% and 9.87% improvement in F1 score over the solutions enhanced by an existing MMKG and VisualChatGPT, respectively, on relation classification.
+        - Collaborated with Prof. Yanghua Xiao.
     - title: Vanilla CPU @ 4th National CPU Design Contest
       institution: Fudan University
       year: 2020.6 - 2020.8
