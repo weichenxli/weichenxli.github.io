@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>MSCS@Columbia University</a>
+subtitle: <a href='#'>PhD Student@University of Chicago</a>
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
