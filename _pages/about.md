@@ -20,7 +20,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student at University of Chicago interested in **programming language, security, software engineering and machine learning**, advised by [Prof. Kexin Pei](https://sites.google.com/site/kexinpeisite/). I earned my master degree in Columbia University, advised by [Prof. Junfeng Yang](http://www.cs.columbia.edu/~junfeng/). I previously summer interned at University of Illinois Urbana-Champaign, advised by [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/). I recevied my bachelor's degree from Fudan University advised by Prof. Yanghua Xiao.
+I'm a first-year PhD student at University of Chicago interested in **programming language, security, software engineering and machine learning**, advised by [Prof. Kexin Pei](https://sites.google.com/site/kexinpeisite/). 
+
+Previously, I earned my master's degree from Columbia University under the guidance of [Prof. Junfeng Yang](http://www.cs.columbia.edu/~junfeng/). Prior to that, I summer interned at the University of Illinois Urbana-Champaign, where I was advised by [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/). I did my bachelors at Fudan University advised by Prof. Yanghua Xiao. I am grateful for the support and insights provided by all my advisors throughout my academic journey.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
