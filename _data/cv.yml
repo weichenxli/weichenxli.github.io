@@ -9,27 +9,27 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Computer Science
+      institution: The University of Chicago
+      year: 2024.9 - Present
     - title: Master of Science (Thesis Track)
       institution: Columbia University
       year: 2022.9 - 2024.5
     - title: Bachelor of Science (Honor Class)
       institution: Fudan University
       year: 2018.9 - 2022.6
-      # description:
-      #   - Description 1.
-      #   - Description 2.
 
 - title: Research
   type: time_table
   contents:
-    - title: Trustworthy AI Code Generation (In Progress)
+    - title: Trustworthy AI Code Generation
       institution: Software Systems Lab, Columbia University
       year: 2022.9 - Present
       advisor: 
       description:
         - Proposed a Tree of Thought-based framework using Large Language Model (LLM) APIs, designed to enhance code generation quality through the preservation of both semantic consistency and diverse expression.
         - Demonstrated the stubbornness of current code-LLMs through an extensive research investigation on model architectures, finetuning strategies and prompting strategies.
-        - Collaborated with Prof. Junfeng Yang, Baishakhi Ray, Zhou Yu, Kexin Pei, and Chengzhi Mao.
+        - Collaborated with Prof. Baishakhi Ray, Junfeng Yang, Chengzhi Mao, and Kexin Pei.
     - title: Symmetry-Presering Program Representation for Learning Code Semantics
       institution: Software Systems Lab, Columbia University
       year: 2022.9 - Present
@@ -72,13 +72,6 @@
       - Researched and studied the Neural Architecture Search (NAS) and a social science research approach named Structure Equation Model (SEM).
       - Designed and implemented an experimental framework to apply NAS and reinforcement learning to speed up the traditional SEM process from days to hours. 
       - Used PyQt5 to build a frontend that enabled users to import questionnaire data and construct initial relationship.
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
