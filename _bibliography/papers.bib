@@ -10,7 +10,7 @@
   year={2025},
   journal = {The 42nd International Conference on Machine Learning},
   selected={true},
-  summary={We use LLMs as inductive rule learner for code editing rules. We define three simple actions to identify inductive rules. We make model explicitly learn 1) functional specifications, 2) set of transformation rules, and 3) applicable rules for each code sample. The evaluation demonstrates our methodology can make the model generate code that is 23% faster, 12% more readable and 27% safer.},
+  abstract={Code editing is a foundational task in software development, where its effectiveness depends on whether it introduces desired code property changes without changing the original code's intended functionality. Existing approaches often formulate code editing as an implicit end-to-end task, omitting the fact that code-editing procedures inherently consist of discrete and explicit steps. Thus, they suffer from suboptimal performance and lack of robustness and generalization. We introduce EditLord, a code editing framework that makes the code transformation steps explicit. Our key insight is to employ a language model (LM) as an inductive learner to extract code editing rules from the training code pairs as concise meta-rule sets. Such rule sets will be manifested for each training sample to augment them for finetuning or assist in prompting- and iterative-based code editing. EditLord outperforms the state-of-the-art by an average of 22.7% in editing performance and 58.1% in robustness while achieving 20.2% higher functional correctness across critical software engineering and security applications, LM models, and editing modes.},
   pdf={https://arxiv.org/abs/2504.15284},
   preview={[ICML25] EditLord.svg},
   abbr={ICML},
@@ -26,6 +26,7 @@
   pdf={https://arxiv.org/abs/2308.03312},
   preview={[ICML24] SymC.svg},
   abbr      = {ICML},
+  abstract={This paper tackles the challenge of teaching code semantics to Large Language Models (LLMs) for program analysis by incorporating code symmetries into the model architecture. We introduce a group-theoretic framework that defines code symmetries as semantics-preserving transformations, where forming a code symmetry group enables precise and efficient reasoning of code semantics. Our solution, SymC, develops a novel variant of self-attention that is provably equivariant to code symmetries from the permutation group defined over the program dependence graph. SymC obtains superior performance on five program analysis tasks, outperforming state-of-the-art code models without any pre-training. Our results suggest that code LLMs that encode the code structural prior via the code symmetry group generalize better and faster.}
 }
 
 @article{
@@ -37,4 +38,5 @@
   journal={The 38th Annual AAAI Conference on Artificial Intelligence},
   selected={true},
   pdf={https://ojs.aaai.org/index.php/AAAI/article/download/29828/31438},
+  abstract={Much effort has been devoted to building multi-modal knowledge graphs by visualizing entities on images, but ignoring the multi-modal information of the relation between entities. Hence, in this paper, we aim to construct a new large-scale multi-modal knowledge graph with triplet facts grounded on images that reflect not only entities but also their relations. To achieve this purpose, we propose a novel pipeline method, including triplet fact filtering, image retrieving, entity-based image filtering, relation-based image filtering, and image clustering. In this way, a multi-modal knowledge graph named ImgFact is constructed, which contains 247,732 triplet facts and 3,730,805 images. In experiments, the manual and automatic evaluations prove the reliable quality of our ImgFact. We further use the obtained images to enhance model performance on two tasks. In particular, the model optimized by our ImgFact achieves an impressive 8.38% and 9.87% improvement over the solutions enhanced by an existing multi-modal knowledge graph and VisualChatGPT on F1 of relation classification.}
 }
