@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a first-year PhD student at University of Chicago interested in **programming language, security, software engineering and machine learning**, advised by [Prof. Kexin Pei](https://sites.google.com/site/kexinpeisite/). 
+I'm a second-year CS PhD student at the University of Chicago, advised by [Prof. Kexin Pei](https://sites.google.com/site/kexinpeisite/). I'm broadly interested in machine learning, software engineering, and security, with a focus on developing theoretically grounded ML methods that learn code semantic representation to facilitate automated and precise software analysis and engineering to build more reliable and secure software.
 
 Previously, I earned my master's degree from Columbia University under the guidance of [Prof. Junfeng Yang](http://www.cs.columbia.edu/~junfeng/). Prior to that, I summer interned at the University of Illinois Urbana-Champaign, where I was advised by [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/). I did my bachelors at Fudan University advised by Prof. Yanghua Xiao. I am grateful for the support and insights provided by all my advisors throughout my academic journey.
 
