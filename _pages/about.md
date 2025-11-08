@@ -7,7 +7,7 @@ subtitle: <a href='#'>PhD Student@University of Chicago</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: selfie.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
