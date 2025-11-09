@@ -59,6 +59,58 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
+          <!-- Invited talks -->
+          {% if page.invited_talks -%}
+            {%- assign invited_entry = site.data.cv | where: 'title', 'Invited Talks' | first -%}
+            {% if invited_entry %}
+            <h2>Invited Talks</h2>
+            <div class="cardmt-3 p-3">
+              {% assign entry = invited_entry %}
+              {% include cv/list_groups.html %}
+              {% assign entry = nil %}
+            </div>
+            {% endif %}
+          {%- endif %}
+
+          <!-- Honors and awards -->
+          {% if page.honors_and_awards -%}
+            {%- assign honors_entry = site.data.cv | where: 'title', 'Honors and Awards' | first -%}
+            {% if honors_entry %}
+            <h2>Honors and Awards</h2>
+            <div class="cv-section mt-3 p-3">
+              {% assign entry = honors_entry %}
+              {% include cv/time_table.html %}
+              {% assign entry = nil %}
+            </div>
+            {% endif %}
+          {%- endif %}
+
+          <!-- Services -->
+          {% if page.services -%}
+            {%- assign services_entry = site.data.cv | where: 'title', 'Services' | first -%}
+            {% if services_entry %}
+            <h2>Services</h2>
+            <div class="cardmt-3 p-3">
+              {% assign entry = services_entry %}
+              {% include cv/list_groups.html %}
+              {% assign entry = nil %}
+            </div>
+            {% endif %}
+          {%- endif %}
+
+          <!-- Teaching -->
+          {% if page.teaching -%}
+            {%- assign teaching_entry = site.data.cv | where: 'title', 'Teaching' | first -%}
+            {% if teaching_entry %}
+            <h2>Teaching</h2>
+            <div class="cardmt-3 p-3">
+              {% assign entry = teaching_entry %}
+              {% include cv/list_groups.html %}
+              {% assign entry = nil %}
+            </div>
+            {% endif %}
+          {%- endif %}
+
           <!-- Social -->
           {%- if page.social %}
             <div class="social">
