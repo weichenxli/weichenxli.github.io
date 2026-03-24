@@ -37,6 +37,8 @@
   contents:
     - category: "EditLord: Learning Code Transformation Rules for Code Editing"
       items:
+        - name: Natural Language for Software Engineering (NL4SE) Reading Group, UT Austin 
+          school: "2026.02"
         - name: Github and DevDiv Applied Science Reading Group, Microsoft
           school: "2025.10"
         - name: RCS Seminar, Columbia University
@@ -81,13 +83,9 @@
   contents:
     - category: Reviewer
       items:
-        - name: ICSE 
-          school: 2025 
-        - name: COLM 
-          school: 2025 
-        - name: CCS 
-          school: 2025 
-        - name: ICML PRAL Workshop 
+        - name: ICSE, S&P, ICML, COLM
+          school: 2026
+        - name: ICSE, CCS, COLM, ICML PRAL Workshop
           school: 2025 
         - name: ASE 
           school: 2024
