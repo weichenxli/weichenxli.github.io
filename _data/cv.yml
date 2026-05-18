@@ -86,7 +86,7 @@
   contents:
     - category: Reviewer
       items:
-        - name: NeurIPS, SOSP, ICSE (Gold Reviewer), S&P, ICML, COLM
+        - name: ICSE, S&P, ICML (Gold Reviewer), COLM, NeurIPS, SOSP
           school: 2026
         - name: ICSE, CCS, COLM, ICML PRAL Workshop
           school: 2025 
