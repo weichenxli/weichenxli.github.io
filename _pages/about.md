@@ -17,7 +17,6 @@ profile:
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-selected_projects: true
 invited_talks: true
 services: true
 teaching: true
@@ -26,6 +25,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm a CS PhD student at the University of Chicago, advised by [Prof. Kexin Pei](https://sites.google.com/site/kexinpeisite/). I'm broadly interested in machine learning, software engineering, and security, with a focus on developing theoretically grounded ML methods that learn code semantic representation to facilitate automated and precise software analysis and engineering to build more reliable and secure software.
+
+My industry experience includes a research internship at Microsoft and software engineering internships at Google and Morgan Stanley.
 
 Previously, I earned my master's degree from Columbia University under the guidance of [Prof. Junfeng Yang](http://www.cs.columbia.edu/~junfeng/). Prior to that, I summer interned at the University of Illinois Urbana-Champaign, where I was advised by [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/). I did my bachelors at Fudan University advised by Prof. Yanghua Xiao. I am grateful for the support and insights provided by all my advisors throughout my academic journey.
 
