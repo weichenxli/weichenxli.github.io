@@ -59,6 +59,14 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
+          <!-- Selected projects -->
+          {% if page.selected_projects -%}
+            <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">Projects</a></h2>
+            {%- assign featured_projects = site.data.projects | where: 'featured', true -%}
+            {% include project_cards.html projects=featured_projects heading_level="h3" %}
+            <p class="mb-4"><a href="{{ '/projects/' | relative_url }}">All research projects and tools &rarr;</a></p>
+          {%- endif %}
+
           <!-- Invited talks -->
           {% if page.invited_talks -%}
             {%- assign invited_entry = site.data.cv | where: 'title', 'Invited Talks' | first -%}
