@@ -637,6 +637,10 @@ footer.sticky-bottom {
     margin-bottom: 0.5rem;
   }
 
+  .card-text {
+    color: var(--global-text-color);
+  }
+
   .project-title {
     font-size: 1.2rem;
     font-weight: 600;
