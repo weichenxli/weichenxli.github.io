@@ -74,7 +74,7 @@
       year: 2026.03 - 2026.09
     - title: Software Engineer Intern
       institution: Google
-      year: 2021.06 - 2021.10
+      year: 2021.07 - 2021.10
       summary: Worked on Google Pay's QR-code payment flows, QR-code parsing, and detection models.
       items:
       - Analyzed user behaviors of the GPay payment transaction, proposed and implemented a new QR code profile widget, and improved the payment transaction by at least 10% in the production environment.

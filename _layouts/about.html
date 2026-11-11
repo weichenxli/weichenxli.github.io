@@ -90,7 +90,7 @@ layout: default
             {%- assign industry_entry = site.data.cv | where: 'title', 'Industry Experience' | first -%}
             {% if industry_entry %}
             <section id="experience" class="experience mb-4" aria-labelledby="experience-heading">
-              <h2 id="experience-heading">Experience</h2>
+              <h2 id="experience-heading">Work</h2>
               {% include experience.html experiences=industry_entry.contents %}
             </section>
             {% endif %}
