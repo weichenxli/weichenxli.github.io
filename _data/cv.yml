@@ -69,14 +69,20 @@
 - title: Industry Experience
   type: time_table
   contents:
-    - year: 2021.06 - 2021.10
-      institution: Software Engineer Intern @ Google
+    - title: Research Intern
+      institution: Microsoft
+    - title: Software Engineer Intern
+      institution: Google
+      year: 2021.06 - 2021.10
+      summary: Worked on Google Pay's QR-code payment flows, QR-code parsing, and detection models.
       items:
       - Analyzed user behaviors of the GPay payment transaction, proposed and implemented a new QR code profile widget, and improved the payment transaction by at least 10% in the production environment.
       - Refactored the existing EMV QR code parser pipeline to ease the logic of integrating a new EMV QR. Implemented the QR code parsing pipeline that launched in Brazil.
       - Constructed a new object detection dataset for QR code and spot code and applied the resampling mechanism to improve the code detection neural network model by 5% on accuracy.
-    - year: 2020.09 - 2021.03
-      institution: Software Engineer Intern @ Morgan Stanley
+    - title: Software Engineer Intern
+      institution: Morgan Stanley
+      year: 2020.09 - 2021.03
+      summary: Improved derivatives statement generation and worked on transaction management.
       items:
       - Analyzed the time consumption of each part of the derivatives statement generating system and implemented a scheduler to eliminate the bottleneck and improve the efficiency of the derivatives statement generating system by nearly 37%.
       - Researched the basic principles of transaction management in SpringBoot, gave a small lecture to the group, and applied it to the derivatives statement management system.
