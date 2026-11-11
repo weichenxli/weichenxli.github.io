@@ -59,17 +59,6 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Industry experience -->
-          {% if page.industry_experience -%}
-            {%- assign industry_entry = site.data.cv | where: 'title', 'Industry Experience' | first -%}
-            {% if industry_entry %}
-            <section id="experience" class="experience mb-4" aria-labelledby="experience-heading">
-              <h2 id="experience-heading">Experience</h2>
-              {% include experience.html experiences=industry_entry.contents %}
-            </section>
-            {% endif %}
-          {%- endif %}
-
           <!-- Invited talks -->
           {% if page.invited_talks -%}
             {%- assign invited_entry = site.data.cv | where: 'title', 'Invited Talks' | first -%}
@@ -93,6 +82,17 @@ layout: default
               {% include cv/time_table.html %}
               {% assign entry = nil %}
             </div>
+            {% endif %}
+          {%- endif %}
+
+          <!-- Industry experience -->
+          {% if page.industry_experience -%}
+            {%- assign industry_entry = site.data.cv | where: 'title', 'Industry Experience' | first -%}
+            {% if industry_entry %}
+            <section id="experience" class="experience mb-4" aria-labelledby="experience-heading">
+              <h2 id="experience-heading">Experience</h2>
+              {% include experience.html experiences=industry_entry.contents %}
+            </section>
             {% endif %}
           {%- endif %}
 

@@ -1,20 +1,15 @@
-<ul class="list-unstyled mt-3">
-  {% for experience in include.experiences %}
-  <li class="mb-4">
-    <div class="row">
-      <div class="col-md-8">
-        <h3 class="h5 mb-1">{{ experience.institution }}</h3>
-        <p class="mb-1">{{ experience.title }}</p>
-      </div>
-      {% if experience.year %}
-      <div class="col-md-4 text-md-right">
-        <p class="small mb-1">{{ experience.year }}</p>
-      </div>
-      {% endif %}
-    </div>
-    {% if experience.summary %}
-    <p class="mb-0">{{ experience.summary }}</p>
-    {% endif %}
-  </li>
-  {% endfor %}
-</ul>
+<div class="cardmt-3 list-groups p-3">
+  <div class="list-group col-12 mb-0">
+    <table class="table-cv list-group-table" role="presentation">
+      <tbody>
+        {% for experience in include.experiences %}
+        <tr>
+          <td class="list-group-category-icon" aria-hidden="true"></td>
+          <td class="list-group-name"><b>{{ experience.title }}@{{ experience.institution }}</b></td>
+          <td class="list-group-school text-nowrap align-top">{{ experience.year }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
